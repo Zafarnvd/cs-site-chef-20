@@ -1,4 +1,81 @@
 @charset "UTF-8";
+@font-face {
+  font-family: courgette;
+  src: url(../../public/fonts/Courgette-Regular.ttf);
+}
+body {
+  margin: 0;
+}
+body header {
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+body header div #carouselExampleIndicators {
+  z-index: -1;
+  position: absolute;
+}
+body header div #carouselExampleIndicators button {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+body header div #carouselExampleIndicators .carousel-item {
+  height: 30%;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+body header nav div ul .bdr {
+  border-bottom: solid white 2px;
+  border-top: solid white 2px;
+  padding: 15px;
+}
+body header nav div ul .bdr a {
+  text-transform: uppercase;
+}
+body header nav div ul .bdr a:hover {
+  background-color: red;
+  padding: 17px;
+}
+body header .txt {
+  padding: 10px 20px;
+}
+body .titreTypo {
+  font-family: courgette;
+}
+body .box {
+  width: 50vw;
+  height: 50vh;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-690/star.svg);
+  background-size: 20px;
+  background-repeat: round;
+  overflow: hidden;
+  resize: both;
+  position: relative;
+  min-width: 150px;
+  min-height: 60px;
+  display: grid;
+  place-items: center;
+}
+body .box::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: white;
+}
+body .box span {
+  position: relative;
+}
+body body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
