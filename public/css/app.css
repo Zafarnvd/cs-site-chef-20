@@ -3,47 +3,41 @@
   font-family: courgette;
   src: url(../../public/fonts/Courgette-Regular.ttf);
 }
-body {
-  margin: 0;
-}
 body header {
-  height: 600px;
   width: 100%;
   background-repeat: no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
-body header div #carouselExampleIndicators {
-  z-index: -1;
+body header .crs img {
+  filter: brightness(30%);
+}
+body header .crs #carouselExampleIndicators {
   position: absolute;
 }
-body header div #carouselExampleIndicators button {
+body header .crs #carouselExampleIndicators button {
   height: 15px;
   width: 15px;
   border-radius: 50%;
 }
-body header div #carouselExampleIndicators .carousel-item {
-  height: 30%;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-}
-body header nav div ul .bdr {
+body header .navbar div ul .bdr {
   border-bottom: solid white 2px;
   border-top: solid white 2px;
   padding: 15px;
 }
-body header nav div ul .bdr a {
+body header .navbar div ul .bdr a {
   text-transform: uppercase;
 }
-body header nav div ul .bdr a:hover {
+body header .navbar div ul .bdr a:hover {
   background-color: red;
   padding: 17px;
 }
 body header .txt {
   padding: 10px 20px;
+  position: relative;
 }
-body .titreTypo {
+body header .titreTypo {
   font-family: courgette;
 }
-body .box {
+body header .box {
   width: 50vw;
   height: 50vh;
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-690/star.svg);
@@ -57,7 +51,7 @@ body .box {
   display: grid;
   place-items: center;
 }
-body .box::before {
+body header .box::before {
   content: "";
   position: absolute;
   top: 20px;
@@ -66,14 +60,34 @@ body .box::before {
   bottom: 20px;
   background: white;
 }
-body .box span {
-  position: relative;
+
+.sct-1 {
+  margin-top: 33%;
+  background-image: url(../../../public/images/main_bg.jpg);
+  background-attachment: fixed;
+  padding: 5%;
 }
-body body {
-  height: 100vh;
-  margin: 0;
-  display: grid;
-  place-items: center;
+.sct-1 .sct-1-0 {
+  background-color: white;
+}
+.sct-1 .sct-1-0 div {
+  display: flex;
+  justify-content: space-between;
+}
+.sct-1 .sct-1-0 div .sct-center {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.sct-1 .sct-1-0 div .sct-center h2, .sct-1 .sct-1-0 div .sct-center .h2 {
+  font-family: courgette;
+  text-transform: capitalize;
+}
+.sct-1 .sct-1-0 div .sct-center h2 span, .sct-1 .sct-1-0 div .sct-center .h2 span {
+  text-transform: uppercase;
+}
+.sct-1 .sct-1-0 p {
+  padding: 0 420px;
 }
 
 /*!
