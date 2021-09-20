@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -10,6 +10,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
   </script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css">
+
 
 </head>
 
@@ -20,7 +25,8 @@
     <header>
 
       <div class="crs">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" style="height: 100vh; overflow: hidden;" class="carousel slide"
+          data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
@@ -29,7 +35,7 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
               aria-label="Slide 3"></button>
           </div>
-          <div>
+          <div class="w-100" style="overflow: hidden;">
             <div class="carousel-item active">
               <img src="./public/images/banner1.jpg" class="d-block w-100" alt="...">
             </div>
@@ -91,6 +97,7 @@
         </div>
       </div>
       <div>
+        <!-- border -->
         <!-- <img src="" alt=""> -->
       </div>
 
@@ -101,27 +108,128 @@
   <!-- debut section story-menu -->
 
   <section class="sct-1">
-    <div class="sct-1-0">
-      <div>
-        <img src="./public/images/box-left-top.png" alt="">
-        <div class="sct-center">
-          <h2><span class=" text-danger">our</span> story</h2>
-          <img src="./public/images/decoration_line.png" alt="">
+    <section class="sct-1-0">
+      <div class="div-1">
+        <div>
+          <img src="./public/images/box-left-top.png" alt="">
+          <div class="sct-center">
+            <h2><span class=" text-danger">our</span> story</h2>
+            <img src="./public/images/decoration_line.png" alt="">
+          </div>
+          <img src="./public/images/box-right-top.png" alt="">
         </div>
-        <img src="./public/images/box-right-top.png" alt="">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic porro repudiandae obcaecati voluptatum
+          repellendus
+          a cum. Consequatur sequi unde modi sed hic porro officia, sint possimus quas, ab accusantium eveniet similique
+          sit, incidunt quos fugiat deleniti ratione quod excepturi. Magni quos magnam illo. Facilis, tempore repellat?
+          Nam quos optio saepe.
+        </p>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic porro repudiandae obcaecati voluptatum repellendus
-        a cum. Consequatur sequi unde modi sed hic porro officia, sint possimus quas, ab accusantium eveniet similique
-        sit, incidunt quos fugiat deleniti ratione quod excepturi. Magni quos magnam illo. Facilis, tempore repellat?
-        Nam quos optio saepe.
-      </p>
-    </div>
-  </section>
-
-
-  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
+      <div class="div-2">
+        <div class="text-center col div-2-1">
+          <h2 class="mt-5"><span class="text-danger text-uppercase">our</span> menu list</h2>
+          <img class="mb-5" src="./public/images/decoration_line.png" alt="">
+        </div>
+        <div class="div-2-2">
+          <div class="icone">
+            <div><a href=""><i class="fas fa-mug-hot"></i><span>lunch</span></a></div>
+            <div><a href=""><i class="fas fa-utensils"></i><span>snacks</span></a></div>
+            <div><a href=""><i class="fas fa-hamburger"></i><span>dinner</span></a></div>
+            <div><a href=""><i class="fas fa-mug-hot"></i><span>dinner</span></a></div>
+          </div>
+          <div class="menu-1">
+            <div class="menu1-2 d-flex align-items-center">
+              <img src="./public/images/menu_image_1.jpg" alt="">
+              <div class="width=100">
+                <h5>Dear Steak with Potatoes</h5>
+                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+              </div>
+              <span class="text-danger fw-bolder">$25</span>
+            </div>
+            <div class="menu1-2 d-flex align-items-center">
+              <img src="./public/images/menu_image_1.jpg" alt="">
+              <div>
+                <h5>Dear Steak with Potatoes</h5>
+                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+              </div>
+              <span class="text-danger fw-bolder">$25</span>
+            </div>
+            <div class="menu1-2 d-flex align-items-center">
+              <img src="./public/images/menu_image_1.jpg" alt="">
+              <div>
+                <h5>Dear Steak with Potatoes</h5>
+                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+              </div>
+              <span class="text-danger fw-bolder">$25</span>
+            </div>
+            <div class="menu1-2 d-flex align-items-center">
+              <img src="./public/images/menu_image_1.jpg" alt="">
+              <div>
+                <h5>Dear Steak with Potatoes</h5>
+                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+              </div>
+              <span class="text-danger fw-bolder">$25</span>
+            </div>
+            <div class="menu1-2 d-flex align-items-center">
+              <img src="./public/images/menu_image_1.jpg" alt="">
+              <div>
+                <h5>Dear Steak with Potatoes</h5>
+                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+              </div>
+              <span class="text-danger fw-bolder">$25</span>
+            </div>
+          </div>
+          <div class="menu-2">
+            <div class="menu2-2 d-flex align-items-center">
+              <img src="./public/images/menu_image_1.jpg" alt="">
+              <div>
+                <h5>Dear Steak with Potatoes</h5>
+                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+              </div>
+              <span class="text-danger fw-bolder">$35</span>
+            </div>
+            <div class="menu2-2 d-flex align-items-center">
+              <img src="./public/images/menu_image_1.jpg" alt="">
+              <div>
+                <h5>Dear Steak with Potatoes</h5>
+                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+              </div>
+              <span class="text-danger fw-bolder">$35</span>
+            </div>
+            <div class="menu2-2 d-flex align-items-center">
+              <img src="./public/images/menu_image_1.jpg" alt="">
+              <div>
+                <h5>Dear Steak with Potatoes</h5>
+                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+              </div>
+              <span class="text-danger fw-bolder">$35</span>
+            </div>
+            <div class="menu2-2 d-flex align-items-center">
+              <img src="./public/images/menu_image_1.jpg" alt="">
+              <div>
+                <h5>Dear Steak with Potatoes</h5>
+                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+              </div>
+              <span class="text-danger fw-bolder">$35</span>
+            </div>
+            <div class="menu2-2 d-flex align-items-center">
+              <img src="./public/images/menu_image_1.jpg" alt="">
+              <div>
+                <h5>Dear Steak with Potatoes</h5>
+                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+              </div>
+              <span class="text-danger fw-bolder">$35</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between">
+        <img src="./public/images/box-bottom-left.png" alt="">
+        <img src="./public/images/box-bottom_right.png" alt="">
+      </div>
+    </section>
+  
 
 </body>
 

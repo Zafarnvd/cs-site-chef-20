@@ -1,0 +1,113 @@
+// section story
+
+.sct-1 {
+    margin-top: 12%;
+    background-image: url(../../../public/images/main_bg.jpg);
+    background-attachment: fixed;
+    padding: 5%;
+
+    .sct-1-0 {
+        background-color: white;
+
+        .div-1 {
+
+
+            div {
+                display: flex;
+                justify-content: space-between;
+
+                .sct-center {
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+
+                    h2 {
+                        font-family: courgette;
+                        text-transform: capitalize;
+
+                        span {
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+
+            p {
+                padding: 0 420px;
+            }
+        }
+    }
+
+    .div-2 {
+        .div-2-1 {
+            font-family: courgette;
+            text-transform: capitalize;
+        }
+
+        .div-2-2 {
+            display: flex;
+
+            .icone {
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-decoration-line: none;
+                    padding: 15px 50px;
+                    border-bottom: solid rgb(223, 219, 219);
+                    margin: 3px;
+
+                    i {
+                        font-size: 85px;
+                        color: rgb(223, 219, 219);
+                    }
+
+                    span {
+                        font-size: xx-large;
+                        text-transform: capitalize;
+                        color: black;
+
+
+                    }
+                }
+            }
+
+            .menu-1 {
+                border-left: solid rgb(223, 219, 219);
+
+                .menu1-2 {
+
+                    img {
+                        border-radius: 50%;
+                        width: 30%;
+                        padding: 15px;
+                    }
+                    span{
+                        margin-left: 5px;
+                        background-color: rgb(235, 232, 232);
+
+                    }
+                    
+                }
+            }
+
+            .menu-2 {
+                .menu2-2 {
+                    margin-right: 15px;
+
+                    img {
+                        border-radius: 50%;
+                        width: 30%;
+                        padding: 15px;
+                    }
+                    span{
+                        margin-left: 5px;
+                        padding: 0 5px;
+                        background-color: rgb(235, 232, 232);
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -62,7 +62,7 @@ body header .box::before {
 }
 
 .sct-1 {
-  margin-top: 33%;
+  margin-top: 12%;
   background-image: url(../../../public/images/main_bg.jpg);
   background-attachment: fixed;
   padding: 5%;
@@ -70,24 +70,74 @@ body header .box::before {
 .sct-1 .sct-1-0 {
   background-color: white;
 }
-.sct-1 .sct-1-0 div {
+.sct-1 .sct-1-0 .div-1 div {
   display: flex;
   justify-content: space-between;
 }
-.sct-1 .sct-1-0 div .sct-center {
+.sct-1 .sct-1-0 .div-1 div .sct-center {
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-.sct-1 .sct-1-0 div .sct-center h2, .sct-1 .sct-1-0 div .sct-center .h2 {
+.sct-1 .sct-1-0 .div-1 div .sct-center h2, .sct-1 .sct-1-0 .div-1 div .sct-center .h2 {
   font-family: courgette;
   text-transform: capitalize;
 }
-.sct-1 .sct-1-0 div .sct-center h2 span, .sct-1 .sct-1-0 div .sct-center .h2 span {
+.sct-1 .sct-1-0 .div-1 div .sct-center h2 span, .sct-1 .sct-1-0 .div-1 div .sct-center .h2 span {
   text-transform: uppercase;
 }
-.sct-1 .sct-1-0 p {
+.sct-1 .sct-1-0 .div-1 p {
   padding: 0 420px;
+}
+.sct-1 .div-2 .div-2-1 {
+  font-family: courgette;
+  text-transform: capitalize;
+}
+.sct-1 .div-2 .div-2-2 {
+  display: flex;
+}
+.sct-1 .div-2 .div-2-2 .icone a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration-line: none;
+  padding: 15px 50px;
+  border-bottom: solid #dfdbdb;
+  margin: 3px;
+}
+.sct-1 .div-2 .div-2-2 .icone a i {
+  font-size: 85px;
+  color: #dfdbdb;
+}
+.sct-1 .div-2 .div-2-2 .icone a span {
+  font-size: xx-large;
+  text-transform: capitalize;
+  color: black;
+}
+.sct-1 .div-2 .div-2-2 .menu-1 {
+  border-left: solid #dfdbdb;
+}
+.sct-1 .div-2 .div-2-2 .menu-1 .menu1-2 img {
+  border-radius: 50%;
+  width: 30%;
+  padding: 15px;
+}
+.sct-1 .div-2 .div-2-2 .menu-1 .menu1-2 span {
+  margin-left: 5px;
+  background-color: #ebe8e8;
+}
+.sct-1 .div-2 .div-2-2 .menu-2 .menu2-2 {
+  margin-right: 15px;
+}
+.sct-1 .div-2 .div-2-2 .menu-2 .menu2-2 img {
+  border-radius: 50%;
+  width: 30%;
+  padding: 15px;
+}
+.sct-1 .div-2 .div-2-2 .menu-2 .menu2-2 span {
+  margin-left: 5px;
+  padding: 0 5px;
+  background-color: #ebe8e8;
 }
 
 /*!
