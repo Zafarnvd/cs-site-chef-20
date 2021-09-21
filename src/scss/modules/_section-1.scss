@@ -10,6 +10,12 @@
         background-color: white;
 
         .div-1 {
+            @media screen and (min-width:360px) and (max-width:640px) {
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
 
 
             div {
@@ -21,6 +27,7 @@
                     justify-content: center;
                     text-align: center;
 
+
                     h2 {
                         font-family: courgette;
                         text-transform: capitalize;
@@ -30,15 +37,30 @@
                         }
                     }
                 }
+
+                @media only screen and (max-width: 600px) {
+                    .sct-center {
+                        background-color: lightblue;
+                        max-width: 100px;
+                    }
+                }
             }
 
             p {
                 padding: 0 420px;
             }
+
+            @media screen and (min-width:360px) and (max-width:640px) {
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
         }
     }
 
     .div-2 {
+
         .div-2-1 {
             font-family: courgette;
             text-transform: capitalize;
@@ -46,6 +68,7 @@
 
         .div-2-2 {
             display: flex;
+
 
             .icone {
                 a {
@@ -82,12 +105,13 @@
                         width: 30%;
                         padding: 15px;
                     }
-                    span{
+
+                    span {
                         margin-left: 5px;
                         background-color: rgb(235, 232, 232);
 
                     }
-                    
+
                 }
             }
 
@@ -100,7 +124,8 @@
                         width: 30%;
                         padding: 15px;
                     }
-                    span{
+
+                    span {
                         margin-left: 5px;
                         padding: 0 5px;
                         background-color: rgb(235, 232, 232);
@@ -109,5 +134,14 @@
             }
         }
 
+        @media screen and (min-width:360px) and (max-width:640px) {
+            .div-2-2 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                border: none;
+                justify-content: center;
+            }
+        }
     }
 }

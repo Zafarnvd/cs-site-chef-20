@@ -30,9 +30,26 @@ body header .navbar div ul .bdr a:hover {
   background-color: red;
   padding: 17px;
 }
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  body header .navbar div ul img {
+    display: none;
+  }
+  body header .navbar div ul .bdr {
+    border: none;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    padding: 0;
+  }
+}
 body header .txt {
   padding: 10px 20px;
   position: relative;
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  body header .txt {
+    display: none;
+  }
 }
 body header .titreTypo {
   font-family: courgette;
@@ -70,6 +87,12 @@ body header .box::before {
 .sct-1 .sct-1-0 {
   background-color: white;
 }
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .sct-1 .sct-1-0 .div-1 p {
+    margin: 0;
+    padding: 0;
+  }
+}
 .sct-1 .sct-1-0 .div-1 div {
   display: flex;
   justify-content: space-between;
@@ -86,8 +109,20 @@ body header .box::before {
 .sct-1 .sct-1-0 .div-1 div .sct-center h2 span, .sct-1 .sct-1-0 .div-1 div .sct-center .h2 span {
   text-transform: uppercase;
 }
+@media only screen and (max-width: 600px) {
+  .sct-1 .sct-1-0 .div-1 div .sct-center {
+    background-color: lightblue;
+    max-width: 100px;
+  }
+}
 .sct-1 .sct-1-0 .div-1 p {
   padding: 0 420px;
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .sct-1 .sct-1-0 .div-1 p {
+    margin: 0;
+    padding: 0;
+  }
 }
 .sct-1 .div-2 .div-2-1 {
   font-family: courgette;
@@ -139,7 +174,44 @@ body header .box::before {
   padding: 0 5px;
   background-color: #ebe8e8;
 }
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .sct-1 .div-2 .div-2-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+    justify-content: center;
+  }
+}
 
+.chef {
+  background-color: black;
+}
+.chef .sct-center {
+  font-family: courgette;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.chef .img-chef {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.chef .img-chef img {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .img-chef {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+    justify-content: center;
+  }
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
