@@ -366,6 +366,33 @@ body header .box::before {
   margin: 15px 12px 55px 13px;
 }
 
+.contact {
+  background-image: url(../../../public/images/main_bg.jpg);
+  background-attachment: fixed;
+  padding-bottom: 20px;
+}
+.contact .contact-bdr {
+  color: white;
+  margin: 0 35%;
+  border-radius: 25px;
+  background-color: #c23030;
+  padding: 15px 10px;
+}
+.contact .contact-bdr div .icone1 {
+  font-size: 35px;
+  padding: 5px 0;
+}
+.contact .contact-bdr .call {
+  display: flex;
+  flex-direction: column;
+  border-top: #c9c5c5 solid 1px;
+  border-bottom: #c9c5c5 solid 1px;
+}
+.contact .contact-bdr .call i {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
