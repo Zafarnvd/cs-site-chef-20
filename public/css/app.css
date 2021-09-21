@@ -223,6 +223,9 @@ body header .box::before {
   display: flex;
   justify-content: space-between;
 }
+.booking .booking-1 .booking-1-1 .booking-1-1-1 h2, .booking .booking-1 .booking-1-1 .booking-1-1-1 .h2 {
+  font-family: courgette;
+}
 .booking .booking-1 .booking-1-1 .booking-1-1-1 .sct-center {
   flex-direction: column;
   justify-content: center;
@@ -248,6 +251,11 @@ body header .box::before {
 .booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form p {
   margin: 55px 0;
 }
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form p {
+    margin: 0;
+  }
+}
 .booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form .formulaire {
   display: flex;
 }
@@ -266,12 +274,23 @@ body header .box::before {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form .formulaire {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form .btn-form {
   margin: 55px 0;
   padding: 20px 40px;
   border-radius: 50px;
   text-transform: uppercase;
   color: white;
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form .btn-form {
+    margin: 0;
+  }
 }
 .booking .booking-1 .booking-1-1 .blog {
   display: flex;
@@ -311,8 +330,19 @@ body header .box::before {
 .booking .booking-1 .booking-1-1 .blog .blog-2 .carte div div .pst-abs .badge-1 span {
   font-weight: bold;
 }
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .booking .booking-1 .booking-1-1 .blog .blog-2 .carte div div .pst-abs {
+    transform: translateY(-60px);
+  }
+}
 .booking .booking-1 .booking-1-1 .blog .blog-2 .carte div div h4, .booking .booking-1 .booking-1-1 .blog .blog-2 .carte div div .h4 {
   margin: 10px 0;
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .booking .booking-1 .booking-1-1 .blog .blog-2 .carte {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .booking .booking-1 .booking-1-1 .blog .btn-form {
   margin-top: 55px;
@@ -322,6 +352,20 @@ body header .box::before {
   color: white;
 }
 
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .booking {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+    justify-content: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .client {
   background-image: url(../../../public/images/testimonials_background.jpg);
   background-repeat: no-repeat;
@@ -339,6 +383,7 @@ body header .box::before {
 .client .client-testimonials .testimonials {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 .client .client-testimonials .testimonials .img-1 {
   display: flex;
@@ -351,11 +396,21 @@ body header .box::before {
   margin-top: 8%;
   margin-right: 5%;
 }
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .client .client-testimonials .testimonials .img-1 {
+    display: none;
+  }
+}
 .client .client-testimonials .testimonials .img-2 img {
   border-radius: 50%;
   width: 70%;
   margin-top: 8%;
   margin-left: 5%;
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .client .client-testimonials .testimonials .img-2 {
+    display: none;
+  }
 }
 .client .client-testimonials .testimonials .carte {
   background-color: none;
@@ -365,11 +420,26 @@ body header .box::before {
   border-radius: 10px;
   margin: 15px 12px 55px 13px;
 }
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .client .client-testimonials .testimonials .card-body {
+    margin: 0%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .client .client-testimonials .testimonials {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+}
 
 .contact {
   background-image: url(../../../public/images/main_bg.jpg);
   background-attachment: fixed;
   padding-bottom: 20px;
+}
+.contact h2, .contact .h2 {
+  font-family: courgette;
 }
 .contact .contact-bdr {
   color: white;
@@ -392,6 +462,11 @@ body header .box::before {
   padding-bottom: 5px;
   padding-top: 5px;
 }
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .contact .contact-bdr {
+    margin: 0;
+  }
+}
 
 .more-about-us section {
   background-image: url(../../../public/images/footer_background.jpg);
@@ -406,6 +481,34 @@ body header .box::before {
 }
 .more-about-us .row {
   margin-right: 0 !important;
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .more-about-us .row {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .more-about-us p {
+    width: 335px;
+  }
+  .more-about-us .r-s {
+    padding-bottom: 15px;
+  }
+  .more-about-us .pt-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .more-about-us .pt-2 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+  }
+  .more-about-us h4, .more-about-us .h4 {
+    width: 170px;
+  }
+  .more-about-us div {
+    width: 300px;
+  }
 }
 
 /*!

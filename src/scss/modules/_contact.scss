@@ -2,6 +2,9 @@
     background-image: url(../../../public/images/main_bg.jpg);
     background-attachment: fixed;
     padding-bottom: 20px;
+    h2{
+        font-family: courgette
+    }
 
     .contact-bdr {
         color: white;
@@ -29,4 +32,10 @@
             }
         }
     }
+    @media screen and (min-width:360px) and (max-width:640px) {
+    .contact-bdr{
+        margin: 0;
+    }
+} 
 }
+
