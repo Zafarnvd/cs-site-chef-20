@@ -1,0 +1,56 @@
+.client {
+    background-image: url(../../../public/images/testimonials_background.jpg);
+    background-repeat: no-repeat;
+
+
+    .client-testimonials {
+        display: flex;
+        flex-direction: column;
+
+        .sct-center {
+            font-family: courgette;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .testimonials {
+            display: flex;
+            justify-content: center;
+
+            .img-1 {
+                display: flex;
+                justify-content: flex-end;
+
+                img {
+                    border-radius: 50%;
+                    width: 70%;
+                    height: 70%;
+                    margin-top: 8%;
+                    margin-right: 5%;
+                }
+            }
+
+            .img-2 {
+                img {
+                    border-radius: 50%;
+                    width: 70%;
+                    margin-top: 8%;
+                    margin-left: 5%;
+                }
+            }
+
+            .carte {
+                background-color: none;
+                color: white;
+
+            }
+
+            .card-body {
+                border-radius: 10px;
+                margin: 15px 12px 55px 13px;
+            }
+
+        }
+    }
+}

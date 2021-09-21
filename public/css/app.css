@@ -322,6 +322,50 @@ body header .box::before {
   color: white;
 }
 
+.client {
+  background-image: url(../../../public/images/testimonials_background.jpg);
+  background-repeat: no-repeat;
+}
+.client .client-testimonials {
+  display: flex;
+  flex-direction: column;
+}
+.client .client-testimonials .sct-center {
+  font-family: courgette;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.client .client-testimonials .testimonials {
+  display: flex;
+  justify-content: center;
+}
+.client .client-testimonials .testimonials .img-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.client .client-testimonials .testimonials .img-1 img {
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+  margin-top: 8%;
+  margin-right: 5%;
+}
+.client .client-testimonials .testimonials .img-2 img {
+  border-radius: 50%;
+  width: 70%;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+.client .client-testimonials .testimonials .carte {
+  background-color: none;
+  color: white;
+}
+.client .client-testimonials .testimonials .card-body {
+  border-radius: 10px;
+  margin: 15px 12px 55px 13px;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
