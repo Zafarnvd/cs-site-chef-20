@@ -1,0 +1,148 @@
+// section 3
+
+
+.booking {
+    background-image: url(../../../public/images/main_bg.jpg);
+    padding: 5%;
+
+    .booking-1 {
+        background-color: white;
+
+        .booking-1-1 {
+
+            .booking-1-1-1 {
+                display: flex;
+                justify-content: space-between;
+
+                .sct-center {
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                }
+            }
+
+            .booking-1-1-2 {
+                display: flex;
+                flex-direction: row;
+
+                .form {
+                    background-image: url("../../../public/images/book_table_bg.jpg");
+                    height: 565px;
+                    width: 770px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 3%;
+
+                    #contenu-form {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        p {
+                            margin: 55px 0;
+                        }
+
+                        .formulaire {
+                            display: flex;
+
+                            form {
+                                margin: 0 15px;
+
+                                input {
+                                    width: 270px;
+                                    border-radius: 10px;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                }
+
+                                .input-group {
+                                    width: 270px;
+                                    border-radius: 10px;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                }
+                            }
+
+                        }
+
+                        .btn-form {
+                            margin: 55px 0;
+                            padding: 20px 40px;
+                            border-radius: 50px;
+                            text-transform: uppercase;
+                            color: white;
+                        }
+
+                    }
+                }
+            }
+
+            .blog {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h2 {
+                    font-family: courgette;
+                }
+
+                .blog-2 {
+
+
+                    .carte {
+                        display: flex;
+                        flex-direction: row;
+
+                        div {
+                            margin: 0 6px;
+
+                            img {
+                                position: relative;
+                                border-radius: 20px;
+                                border: rgb(238, 236, 236) 4px solid;
+                            }
+
+                            div {
+
+                                .pst-abs {
+                                    position: absolute;
+                                    height: 50vh;
+                                    width: 340px;
+                                    transform: translateY(-40px);
+
+                                    .badge-1 {
+                                        position: absolute;
+                                        font-size: large;
+                                        text-transform: capitalize;
+                                        border-radius: 5px;
+                                        padding-top: 10px;
+                                        padding-bottom: 5px;
+                                        width: 51%;
+
+                                        span {
+                                            font-weight: bold;
+                                        }
+                                    }
+                                }
+
+                                h4 {
+                                    margin: 10px 0;
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+
+                .btn-form {
+                    margin-top: 55px;
+                    padding: 20px 40px;
+                    border-radius: 50px;
+                    text-transform: uppercase;
+                    color: white;
+                }
+            }
+        }
+    }
+}

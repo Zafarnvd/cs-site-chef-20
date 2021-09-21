@@ -212,6 +212,116 @@ body header .box::before {
     justify-content: center;
   }
 }
+.booking {
+  background-image: url(../../../public/images/main_bg.jpg);
+  padding: 5%;
+}
+.booking .booking-1 {
+  background-color: white;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-1 .sct-center {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-2 {
+  display: flex;
+  flex-direction: row;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-2 .form {
+  background-image: url("../../../public/images/book_table_bg.jpg");
+  height: 565px;
+  width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3%;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form p {
+  margin: 55px 0;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form .formulaire {
+  display: flex;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form .formulaire form {
+  margin: 0 15px;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form .formulaire form input {
+  width: 270px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form .formulaire form .input-group {
+  width: 270px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.booking .booking-1 .booking-1-1 .booking-1-1-2 .form #contenu-form .btn-form {
+  margin: 55px 0;
+  padding: 20px 40px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: white;
+}
+.booking .booking-1 .booking-1-1 .blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.booking .booking-1 .booking-1-1 .blog h2, .booking .booking-1 .booking-1-1 .blog .h2 {
+  font-family: courgette;
+}
+.booking .booking-1 .booking-1-1 .blog .blog-2 .carte {
+  display: flex;
+  flex-direction: row;
+}
+.booking .booking-1 .booking-1-1 .blog .blog-2 .carte div {
+  margin: 0 6px;
+}
+.booking .booking-1 .booking-1-1 .blog .blog-2 .carte div img {
+  position: relative;
+  border-radius: 20px;
+  border: #eeecec 4px solid;
+}
+.booking .booking-1 .booking-1-1 .blog .blog-2 .carte div div .pst-abs {
+  position: absolute;
+  height: 50vh;
+  width: 340px;
+  transform: translateY(-40px);
+}
+.booking .booking-1 .booking-1-1 .blog .blog-2 .carte div div .pst-abs .badge-1 {
+  position: absolute;
+  font-size: large;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 51%;
+}
+.booking .booking-1 .booking-1-1 .blog .blog-2 .carte div div .pst-abs .badge-1 span {
+  font-weight: bold;
+}
+.booking .booking-1 .booking-1-1 .blog .blog-2 .carte div div h4, .booking .booking-1 .booking-1-1 .blog .blog-2 .carte div div .h4 {
+  margin: 10px 0;
+}
+.booking .booking-1 .booking-1-1 .blog .btn-form {
+  margin-top: 55px;
+  padding: 20px 40px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: white;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
