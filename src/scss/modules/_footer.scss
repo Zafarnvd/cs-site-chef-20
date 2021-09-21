@@ -1,0 +1,18 @@
+.more-about-us {
+    section {
+        background-image: url(../../../public/images/footer_background.jpg);
+        background-attachment: fixed;
+        padding: 2% 5%;
+        color: white;
+        display: flex;
+        justify-content: center;
+
+        .about-us {
+            text-transform: uppercase;
+        }
+    }
+
+    .row {
+        margin-right: 0 !important;
+    }
+}

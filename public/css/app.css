@@ -393,6 +393,21 @@ body header .box::before {
   padding-top: 5px;
 }
 
+.more-about-us section {
+  background-image: url(../../../public/images/footer_background.jpg);
+  background-attachment: fixed;
+  padding: 2% 5%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.more-about-us section .about-us {
+  text-transform: uppercase;
+}
+.more-about-us .row {
+  margin-right: 0 !important;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
